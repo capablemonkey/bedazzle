@@ -6,7 +6,7 @@
   display: none;
 }
 
-#rt-ce-expand-button {
+.rt-ce-expand-button {
   position: relative;
   float: left;
 }

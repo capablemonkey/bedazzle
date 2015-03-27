@@ -6,8 +6,8 @@
   "content_scripts": [
     {
       "matches": ["*://twitter.com/*"],
-      "css": ["style.css"],
-      "js": ["jquery-2.1.3.min.js", "unicate.js", "inject.js"],
+      "css": ["assets/style.css"],
+      "js": ["js/jquery-2.1.3.min.js", "js/unicate.js", "js/inject.js"],
       "run_at": "document_end"
     }
   ],
