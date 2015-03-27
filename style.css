@@ -1,3 +1,17 @@
-.rt-ce-panel {
+.rt-ce-wrapper {
   display: inline-block;
+}
+
+.rt-ce-panel {
+  display: none;
+}
+
+#rt-ce-expand-button {
+  position: relative;
+  float: left;
+}
+
+.rt-ce-button-group {
+  margin-top: 5px;
+  margin-bottom: 5px;
 }

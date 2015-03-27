@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
-  "name": "Faux Rich Text Twitter",
-  "description": "Adds unicode transforming functions to your Tweet editor on twitter.com",
+  "name": "Bedazzle",
+  "description": "A faux rich text editor for Twitter.  Adds unicode transforming functions to your Tweet editor on twitter.com",
   "version": "1.0",
   "content_scripts": [
     {
