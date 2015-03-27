@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Faux Rich Text Twitter",
+  "description": "Adds unicode transforming functions to your Tweet editor on twitter.com",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": ["*://twitter.com/*"],
+      "css": ["style.css"],
+      "js": ["jquery-2.1.3.min.js", "unicate.js", "k.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "permissions": [
+    "activeTab"
+  ]
+}
