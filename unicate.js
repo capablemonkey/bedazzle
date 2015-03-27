@@ -1,3 +1,7 @@
+/*
+ * Written by Andrew Filer (@afiler).  https://github.com/afiler/unicate
+ */
+
 formats = {
   strikethrough: combiner('\u0336'),
   underline: combiner('\u035f'),
@@ -420,7 +424,3 @@ function fixedFromCharCode (codePt) {
         return String.fromCharCode(codePt);  
     }  
 }
-
-
-
-//}
